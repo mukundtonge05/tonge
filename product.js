@@ -25,6 +25,10 @@ app.get('/product', (request, response) => {
     })
 })
 
+app.post('/',(request,response)=> {
+    response.send('Welcome to my application');
+})
+
 app.listen(4000, () => {
-    console.log(`Server started on port 4000 Kapil Suryawanshi`);
+    console.log(`Server started on port 4000`);
 });
